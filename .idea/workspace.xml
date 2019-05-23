@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5df7d54-7a3f-47f1-936f-a7133ebe545b" name="Default Changelist" comment="" />
+    <list default="true" id="aaf35dc8-3c8e-4fbe-9071-5c88d819a814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notebooks/exploratory/explore_maps.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/modelling/lgbm_baseline.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/modelling/lgbm_tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/arc_gis/nearest_facility.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/arc_gis/nearest_facility.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/exploratory/location_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory/location_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/exploratory/raw-data-inspection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory/raw-data-inspection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/random_forests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/random_forests.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/tpot_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tpot_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/tpot_baseline_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tpot_baseline_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/xgboost_baseline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/xgboost_baseline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/xgboost_tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/xgboost_tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/transformers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/transformers.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/transformers.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/transformers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="525">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -46,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -61,17 +64,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/models/tpot_pipeline.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/src/models/model_transformer.py" />
-        <option value="$PROJECT_DIR$/src/data/extract_targets.py" />
-        <option value="$PROJECT_DIR$/src/features/mobile_money_features.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/src/features/transformers.py" />
-        <option value="$PROJECT_DIR$/src/utils.py" />
       </list>
     </option>
   </component>
@@ -79,12 +78,14 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,17 +96,48 @@
             <path>
               <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="exploratory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="feature-engineering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="modelling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,19 +156,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5df7d54-7a3f-47f1-936f-a7133ebe545b" name="Default Changelist" comment="" />
+      <changelist id="aaf35dc8-3c8e-4fbe-9071-5c88d819a814" name="Default Changelist" comment="" />
       <created>1557153762740</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557153762740</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add skopt convergence plot callback">
+      <created>1557980503131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557980503131</updated>
+    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.24954791" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -148,14 +186,15 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="DB Execution Console" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Console" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -193,27 +232,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/mobile_money_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/mobile_money_features.py" />
     <entry file="file://$PROJECT_DIR$/src/data/extract_targets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -227,6 +250,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/feature-engineering/mobile_money.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/skopt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1#7#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/modelling/Baseline Model.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/modelling/xgboost_tuning.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/modelling/xgboost_baseline.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/transformers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -234,10 +302,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/transformers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        <state relative-caret-position="525">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

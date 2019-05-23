@@ -20,16 +20,18 @@ class MMAgentsInVicinity(BaseEstimator, TransformerMixin):
     def create_tree(self, coords):
         if type(coords) != np.array:
             coords = np.array(coords)
+
         return KDTree(coords, distance_metric='ARC', radius=RADIUS_EARTH_KM)
 
     def fit(self, X, y=None, **fit_params):
         return self
 
     def transform(self, X, y=None):
-        x_coords = X[['Latitude', 'Longitude']]
 
-        agents_in_radius = x_coords.apply(
-            lambda coords: len(self.tree.query_ball_point(coords, r=self.radius)), axis=1)
+        assert X.shape[1] == 2, 'shape of dataset passed is wrong'
+
+        apply_fun = lambda coords: len(self.tree.query_ball_point(coords, r=self.radius))
+        agents_in_radius = map(apply_fun, X)
 
         return pd.DataFrame(agents_in_radius)
 
