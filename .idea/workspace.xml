@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf35dc8-3c8e-4fbe-9071-5c88d819a814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/exploratory/explore_maps.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/modelling/lgbm_baseline.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/modelling/lgbm_tuning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/arc_gis/nearest_facility.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/arc_gis/nearest_facility.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/exploratory/location_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory/location_data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/exploratory/raw-data-inspection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory/raw-data-inspection.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/modelling/random_forests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/random_forests.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/modelling/tpot_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tpot_baseline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/modelling/tpot_baseline_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tpot_baseline_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/modelling/xgboost_baseline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/xgboost_baseline.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/modelling/xgboost_tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/modelling/xgboost_tuning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/transformers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/transformers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/exploratory/explore_maps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploratory/explore_maps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering/location_clustering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering/location_clustering.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering/mobile_money.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering/mobile_money.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/feature-engineering/regional_feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/feature-engineering/regional_feature.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/modelling/Baseline Model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/extract_targets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/tpot_baseline_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tpot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +23,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/transformers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/transformers.py">
+        <entry file="file://$PROJECT_DIR$/src/data/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="495">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -47,10 +42,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/tpot_baseline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/tpot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -71,6 +89,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/features/transformers.py" />
+        <option value="$PROJECT_DIR$/src/models/tpot_baseline_2.py" />
+        <option value="$PROJECT_DIR$/src/models/tpot.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/src/data/utils.py" />
       </list>
     </option>
   </component>
@@ -96,30 +118,18 @@
             <path>
               <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="exploratory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="feature-engineering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="modelling" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_money_tanzania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile_money_tanzania" type="b2602c69:ProjectViewProjectNode" />
@@ -162,17 +172,19 @@
       <option name="presentableId" value="Default" />
       <updated>1557153762740</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add skopt convergence plot callback">
-      <created>1557980503131</created>
+    <task id="LOCAL-00001" summary="one big commit!">
+      <created>1558619386645</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1557980503131</updated>
+      <updated>1558619386645</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.24954791" />
@@ -190,8 +202,8 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Console" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -199,6 +211,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one big commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="one big commit!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/models/train_model.py">
@@ -222,24 +238,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/tpot_pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/mobile_money_features.py" />
-    <entry file="file://$PROJECT_DIR$/src/data/extract_targets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -295,24 +294,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/transformers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/transformers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/tpot_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/tpot_baseline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/tpot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/transformers.py">
+    <entry file="file://$PROJECT_DIR$/src/data/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="495">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

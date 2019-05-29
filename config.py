@@ -6,4 +6,6 @@ data_dir = os.path.join(root_dir, 'data')
 
 raw_data_dir = os.path.join(data_dir, 'raw')
 
+features_data_dir = os.path.join(data_dir, 'modelling')
+
 location_data_dir = os.path.join(raw_data_dir, 'FSDT_FinAccessMapping')
